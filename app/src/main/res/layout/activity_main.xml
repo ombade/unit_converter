@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unit_converter"
+        android:textSize="38sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_number_in_kg"
+        android:textSize="20sp"
+        android:textColor="#3949AB"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="monospace"
+        />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="20sp"
+        android:autofillHints=" "
+        android:hint="@string/S"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_gravity="center"
+        android:text="@string/convert"
+
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value_in_grams"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="#3949AB"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="monospace"
+        />
+
+
+</LinearLayout>
